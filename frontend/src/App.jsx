@@ -3,7 +3,7 @@ import React, { useState, useEffect, useCallback } from "react";
 // Change this if your backend runs somewhere other than localhost:4000.
 // This app runs in your browser, so it can reach a backend running
 // on your own machine at localhost as long as the server is up.
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://splittify.onrender.com";
 
 // ---------- Design tokens ----------
 // Ink        #0B0B0D  background

@@ -1,16 +1,17 @@
 {
   "name": "splittify-backend",
   "version": "1.0.0",
-  "description": "Expense splitter backend - Express + SQLite, no external APIs",
+  "description": "Expense splitter backend - Express + Postgres",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "better-sqlite3": "^11.3.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.0"
   }
 }
